@@ -1,0 +1,24 @@
+{
+  "name": "secondbot",
+  "version": "1.0.0",
+  "description": "simple commands bot using discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "nikhilswain",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "axios": "^0.24.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.1",
+    "random-gif-api": "^1.0.4"
+  }
+}
